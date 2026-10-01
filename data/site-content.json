@@ -1,0 +1,156 @@
+{
+  "hero": {
+    "name": "Samuel Charles",
+    "role": "AI / DATA SCIENTIST",
+    "greeting": "HI, I'M SAMUEL CHARLES",
+    "description": "I build machine learning systems that turn messy, real-world data into decisions people can trust — from research prototypes to production pipelines.",
+    "profileImage": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=800&auto=format&fit=crop",
+    "cvUrl": "/cv/samuel-charles-cv.pdf"
+  },
+  "stats": [
+    { "id": "s1", "label": "Projects Completed", "value": 42, "suffix": "+" },
+    { "id": "s2", "label": "Hackathons Completed", "value": 15, "suffix": "+" },
+    { "id": "s3", "label": "Awards Won", "value": 8, "suffix": "" },
+    { "id": "s4", "label": "Certifications Earned", "value": 12, "suffix": "+" }
+  ],
+  "about": {
+    "shortText": "Data scientist and ML engineer focused on applied AI — I like problems where the model has to survive contact with real data.",
+    "longText": "I'm a data scientist with a background spanning statistical modeling, deep learning, and production ML infrastructure. My work sits at the intersection of research and engineering: I prototype quickly, validate rigorously, and ship systems that hold up outside the notebook. Over the past few years I've worked across NLP, computer vision, and forecasting problems, and I care a lot about reproducibility, clear evaluation, and building tools other engineers actually want to use. Outside of client and research work, I mentor at hackathons, write about applied ML, and contribute to open-source data tooling.",
+    "secondaryImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
+    "infoChips": [
+      { "id": "c1", "label": "Location", "value": "Lagos, Nigeria", "icon": "map-pin" },
+      { "id": "c2", "label": "Education", "value": "B.Sc. Data Science", "icon": "graduation-cap" },
+      { "id": "c3", "label": "Focus Areas", "value": "NLP · MLOps · Forecasting", "icon": "target" },
+      { "id": "c4", "label": "Contact", "value": "hello@samuelcharles.dev", "icon": "mail" }
+    ]
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/in/samuelcharles",
+    "github": "https://github.com/samuelcharles",
+    "twitter": "https://x.com/samuelcharles",
+    "instagram": "https://instagram.com/samuelcharles",
+    "mail": "mailto:hello@samuelcharles.dev",
+    "linktree": "https://linktr.ee/samuelcharles"
+  },
+  "contact": {
+    "email": "hello@samuelcharles.dev",
+    "phone": "",
+    "location": "Lagos, Nigeria (open to remote)",
+    "availability": "Open to select freelance and full-time opportunities"
+  },
+  "experience": [
+    {
+      "id": "e1",
+      "title": "Machine Learning Engineer",
+      "subtitle": "Northwind Analytics",
+      "description": "Lead development of forecasting and anomaly-detection models used across the company's core reporting product; own the ML platform's training and deployment pipeline.",
+      "date": "2024 — Present",
+      "tags": ["Python", "PyTorch", "MLOps"],
+      "featured": true
+    },
+    {
+      "id": "e2",
+      "title": "Data Scientist",
+      "subtitle": "Fieldstone AI Lab",
+      "description": "Built NLP pipelines for document classification and information extraction, and ran A/B tests to validate model impact on downstream product metrics.",
+      "date": "2022 — 2024",
+      "tags": ["NLP", "scikit-learn", "SQL"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Cascade — Time Series Forecasting Toolkit",
+      "subtitle": "Open Source",
+      "description": "A lightweight Python library for probabilistic time-series forecasting with built-in backtesting and drift monitoring.",
+      "date": "2025",
+      "link": "https://github.com/samuelcharles/cascade",
+      "linkLabel": "View on GitHub",
+      "tags": ["Python", "Forecasting", "Open Source"],
+      "featured": true
+    },
+    {
+      "id": "p2",
+      "title": "ClauseLens",
+      "subtitle": "Contract Analysis Assistant",
+      "description": "An LLM-backed tool that flags risky clauses in vendor contracts and summarizes obligations for non-legal teams.",
+      "date": "2024",
+      "link": "https://github.com/samuelcharles/clauselens",
+      "linkLabel": "View on GitHub",
+      "tags": ["LLMs", "RAG", "Next.js"]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert1",
+      "title": "TensorFlow Developer Certificate",
+      "subtitle": "Google",
+      "description": "Certified in building and training neural networks with TensorFlow for computer vision, NLP, and time series tasks.",
+      "date": "2023",
+      "link": "#",
+      "linkLabel": "View credential"
+    },
+    {
+      "id": "cert2",
+      "title": "AWS Certified Machine Learning – Specialty",
+      "subtitle": "Amazon Web Services",
+      "description": "Validated expertise in building, training, tuning, and deploying ML models on AWS.",
+      "date": "2023",
+      "link": "#",
+      "linkLabel": "View credential"
+    }
+  ],
+  "blog": [
+    {
+      "id": "b1",
+      "title": "Why Your Forecasting Model Is Lying to You",
+      "subtitle": "Personal Blog",
+      "description": "A practical look at leakage and backtesting mistakes that make time-series models look better than they are.",
+      "date": "Jun 2026",
+      "link": "#",
+      "linkLabel": "Read post",
+      "tags": ["Forecasting", "MLOps"]
+    }
+  ],
+  "research": [
+    {
+      "id": "r1",
+      "title": "Robust Drift Detection for Streaming Tabular Data",
+      "subtitle": "Workshop Paper, DataML 2025",
+      "description": "Proposes a lightweight statistical test for detecting covariate drift in high-throughput tabular pipelines.",
+      "date": "2025",
+      "link": "#",
+      "linkLabel": "Read paper",
+      "tags": ["Research", "Drift Detection"]
+    }
+  ],
+  "community": [
+    {
+      "id": "com1",
+      "title": "Mentor, Lagos AI Hackathon",
+      "subtitle": "Volunteer",
+      "description": "Mentored five teams on model selection and evaluation strategy across a 48-hour hackathon.",
+      "date": "2025"
+    }
+  ],
+  "talks": [
+    {
+      "id": "t1",
+      "title": "Shipping ML Models Without Losing Sleep",
+      "subtitle": "PyData Lagos",
+      "description": "A talk on monitoring, rollback strategy, and on-call practices for teams running ML in production.",
+      "date": "2025",
+      "link": "#",
+      "linkLabel": "Watch talk"
+    }
+  ],
+  "honors": [
+    {
+      "id": "h1",
+      "title": "Best Applied ML Project",
+      "subtitle": "National Data Science Challenge",
+      "description": "Awarded first place for a fraud-detection system judged on accuracy, latency, and explainability.",
+      "date": "2024"
+    }
+  ]
+}
